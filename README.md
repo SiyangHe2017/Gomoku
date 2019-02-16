@@ -1,1 +1,1 @@
-# Gomoku 五子棋 人机对战
+# Gomoku 五子棋
