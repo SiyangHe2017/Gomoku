@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="image/gomoku.ico"/>
+    <script type="text/javascript" src="javascript/load_css.js"></script>
+    <title>Gomoku</title>
+
+</head>
+<body onload="initial()">
+    <canvas id="chess" width="600px" height="600px"  ></canvas>
+    <script type="text/javascript" src="javascript/gomoku_ui.js"></script>
+    <script type="text/javascript" src="javascript/gomoku_ai.js"></script>
+    <script type="text/javascript" src="javascript/gomoku_main.js"></script>
+    <table>
+        <tr>
+            <td><button id="blackbutton" type="button" onclick="startblack()">BLACK</button></td>
+            <td><button id="whitebutton" type="button"  onclick="startwhite()">WHITE</button></td>
+        </tr>
+    </table>
+</body>
+</html>
