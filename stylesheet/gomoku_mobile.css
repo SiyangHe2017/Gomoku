@@ -1,0 +1,34 @@
+body
+{
+    background-image:url("../image/gomoku_mobile.jpg");
+    background-size:cover;
+}
+
+
+canvas{
+    background: #cd9a5b;
+    display: block;
+    margin: 32% auto;
+    /* margin: auto */
+    /* box-shadow: -2px -2px 2px #cd9a5b, 5px 5px 5px #cd9a5b; */
+}
+
+table{
+    border:0 solid black;
+    border-collapse: separate;
+    border-spacing: 60px 30px;
+    padding: 0;
+    margin: -32% auto;
+    /* margin: auto; */
+}
+
+
+button{
+    border:none;
+    outline: none;
+    padding:20px 45px;
+    /* background-color:#F9E3AF; */
+    background: #cd9a5b;
+    text-align:center;
+    font-size:45px;
+}

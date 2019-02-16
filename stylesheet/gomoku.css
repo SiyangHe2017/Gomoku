@@ -1,0 +1,36 @@
+body
+{
+    background-image:url("../image/gomoku.jpg");
+    background-size:cover;
+}
+
+
+canvas{
+    background: #cd9a5b;
+    display: block;
+    margin: 50px auto;
+    /* box-shadow: -2px -2px 2px white, 5px 5px 5px white; */
+}
+
+table{
+    border:0 solid black;
+    border-collapse: separate;
+    border-spacing: 30px;
+    padding: 0;
+    margin: -50px auto;
+
+
+    /* margin: auto; */
+}
+
+
+
+button{
+    border:none;
+    outline: none;
+    padding:20px 45px;
+    /* background-color:#F9E3AF; */
+    background: #cd9a5b;
+    text-align:center;
+    font-size:30px;
+}
